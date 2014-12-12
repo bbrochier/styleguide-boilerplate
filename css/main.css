@@ -253,6 +253,9 @@
     color: #333;
 }
 
+
+/* Colors
+   ========================================================================== */
 .sg-color {
     display: inline-block;
     vertical-align: top;
@@ -303,6 +306,40 @@ li.sg-color-title {
 }
 .sg-color-group li span:last-child {
     float: right;
+}
+
+
+/* Fonts
+   ========================================================================== */
+.sg-font {
+    display: inline-block;
+    border: 1px solid #eee;
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+    width: 49%;
+    vertical-align: top;
+}
+
+.sg-font:nth-child(even){
+    margin-right: 0;
+}
+
+.sg-font-title {
+    padding: 10px 10px;
+    background: #eee;
+    color: #333;
+}
+
+.sg-font-title span {
+    float: right;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sg-font div:last-child {
+    padding: 10px;
 }
 
 
