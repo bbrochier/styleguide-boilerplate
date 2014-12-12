@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Styleguide Boilerplate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="js/vendor/X-rayHTML/X-rayHTML.css">
+        <link rel="stylesheet" href="js/vendor/prism/prism.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="sg-body">
+
+        <div class="sg-aside">
+            <div class="sg-logo">
+                Styleguide<br>
+                Boilerplate
+            </div>
+            <ul class="sg-nav">
+                <li><span>Styles</span>
+                    <ul>
+                        <li><a href="#sg-colors">Colors</a></li>
+                        <li><a href="#sg-fonts">Fonts</a></li>
+                        <li><span>Niveau 1</span>
+                            <ul>
+                                <li><a href="#_">Niveau 2</a></li>
+                                <li><a href="#_">Niveau 2</a></li>
+                                <li><a href="#_">Niveau 2</a></li>
+                            </ul>
+                        </li>
+                        <li><span>Niveau 1</span>
+                            <ul>
+                                <li><a href="#_">Niveau 2</a></li>
+                                <li><a href="#_">Niveau 2</a></li>
+                                <li><a href="#_">Niveau 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><span>Guides &amp; Ressources</span>
+                    <ul>
+                        <li><span>Inspirations</span>
+                            <ul>
+                                <li><a href="http://material-ui.com/">Material UI</a></li>
+                                <li><a href="http://www.google.com/design/spec/material-design/introduction.html">Google Material Design</a></li>
+                                <li><a href="https://www.polymer-project.org">Polymer</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.sg-aside -->
+
+        <div class="sg-main">
+            <div class="sg-section">
+                <div class="sg-h1">Styleguide Boilerplate</div>
+            </div><!--/.sg-section -->
+
+            <div id="sg-colors" class="sg-section">
+                <div class="sg-h2">Colors</div>
+                <div class="sg-desc">
+                    <p>Tool to find the name of the color by hexadecimal code: <a href="http://www.color-blindness.com/color-name-hue/" target="_blank">www.color-blindness.com/color-name-hue</a></p>
+                </div>
+
+                <div class="sg-h3">Single colors</div>
+
+                <span class="sg-color">
+                    <span style="background-color: #03a9f4"></span>
+                    <span><strong>#03a9f4</strong><br>@color-blue-deepSky</span>
+                </span>
+                <span class="sg-color">
+                    <span style="background-color: #e91e63"></span>
+                    <span><strong>#e91e63</strong><br>@color-pink-ruby</span>
+                </span>
+                <br><br>
+                <div class="sg-h3">Group colors</div>
+
+                <ul class="sg-color-group">
+                    <li class="sg-color-title">Blue</li>
+                    <li class="sg-color-dark" style="background-color: #01579b;">
+                        <span>@color-blue-cobalt</span>
+                        <span>#01579b</span>
+                    </li>
+                    <li class="sg-color-dark" style="background-color: #03a9f4;">
+                        <span>@color-blue-deepSky</span>
+                        <span>#03a9f4</span>
+                    </li>
+                    <li class="sg-color-light" style="background-color: #81d4fa;">
+                        <span>@color-blue-lightSky</span>
+                        <span>#81d4fa</span>
+                    </li>
+                    <li class="sg-color-light" style="background-color: #e1f5fe;">
+                        <span>@color-blue-lightCyan</span>
+                        <span>#e1f5fe</span>
+                    </li>
+                </ul>
+                <ul class="sg-color-group">
+                    <li class="sg-color-title">Pink</li>
+                    <li class="sg-color-dark" style="background-color: #880e4f;">
+                        <span>@color-pink-jazzberry</span>
+                        <span>#880e4f</span>
+                    </li>
+                    <li class="sg-color-dark" style="background-color: #e91e63;">
+                        <span>@color-pink-ruby</span>
+                        <span>#e91e63</span>
+                    </li>
+                    <li class="sg-color-light" style="background-color: #f06292;">
+                        <span>@color-pink-dark</span>
+                        <span>#f06292</span>
+                    </li>
+                    <li class="sg-color-light" style="background-color: #f8bbd0;">
+                        <span>@color-pink-azalea</span>
+                        <span>#f8bbd0</span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="sg-fonts" class="sg-section">
+                <div class="sg-h2">Fonts</div>
+            </div>
+
+            <div class="sg-section">
+                <div class="sg-h2">Section title</div>
+                <div class="sg-h3">element name</div>
+                <div data-xrayhtml>
+<button class="btn">button</button>
+<a class="btn">button</a>
+                </div>
+                <div class="sg-h3">element name</div>
+                <div data-xrayhtml>
+<button class="btn">button</button>
+<a class="btn">button</a>
+                </div>
+            </div><!--/.sg-section -->
+
+        </div><!--/.sg-main -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/X-rayHTML/X-rayHTML.custom.js"></script>
+        <script src="js/vendor/prism/prism.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
