@@ -9,7 +9,8 @@
 }
 
 
-/* Topper
+/* ==========================================================================
+   Topper
    ========================================================================== */
 .sg-topper {
     height: 60px;
@@ -18,6 +19,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .sg-nav-trigger {
@@ -44,7 +46,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
 
@@ -56,7 +57,7 @@
     height: 4px;
     background: #fff;
     content: '';
-    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
 }
 
@@ -95,7 +96,8 @@
 }
 
 
-/* Aside
+/* ==========================================================================
+   Aside
    ========================================================================== */
 .sg-aside {
     width: 265px;
@@ -111,11 +113,13 @@
     line-height: 13px;
     overflow: scroll;
     transition: .3s;
-    transform: translateX(-265px);
+    -webkit-transform: translateX(-265px);
+            transform: translateX(-265px);
 }
 
 .nav-is-opened .sg-aside {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
 }
 
 .sg-aside ul {
@@ -188,10 +192,12 @@
 }
 
 .sg-nav span.is-opened:after {
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 
-/* level 1 */
+/* Nav level 1
+   ========================================================================== */
 .sg-nav > li {
     border-bottom: 1px solid #ccc;
     padding: 12px 0;
@@ -199,12 +205,40 @@
 
 .sg-nav > li > span {
     font-weight: bold;
-    padding-left: 24px;
+    padding-left: 58px;
     font-size: 15px;
+    position: relative;
+}
+
+.sg-nav > li > span i {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    position: absolute;
+    left: 24px;
+    top: 4px;
+}
+
+.sg-nav > li > ul {
+    display: block;
+}
+
+.sg-ico-html {
+    background-image: url(../img/ico-html.svg);
+}
+
+.sg-ico-documentation {
+    background-image: url(../img/ico-docu.svg);
+}
+
+.sg-ico-ressources {
+    background-image: url(../img/ico-ressources.svg);
 }
 
 
-/* Main
+/* ==========================================================================
+   Main
    ========================================================================== */
 .sg-main {
     transition: .3s;
@@ -346,21 +380,18 @@ li.sg-color-title {
 /* X-Ray HTML
    ========================================================================== */
 [data-xrayhtml] {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-pre {
+/*pre {
     max-height: 80px;
     transition: .5s;
-    /*opacity: 0.3;*/
     position: relative;
-    cursor: text;
 }
 
 pre:hover {
     max-height: 500px;
     transition: 1s;
-    /*opacity: 1;*/
 }
 
 pre:after {
@@ -378,7 +409,7 @@ pre:after {
 
 pre:hover:after {
     opacity: 0;
-}
+}*/
 
 
 
@@ -394,7 +425,7 @@ pre:hover:after {
 .sg-clearfix:before,
 .sg-clearfix:after {
     content: " "; /* 1 */
-    display: table; /* 2 */
+    display: table /* 2 */
 }
 
 .sg-clearfix:after {

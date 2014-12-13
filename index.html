@@ -11,15 +11,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="js/vendor/X-rayHTML/X-rayHTML.css">
         <link rel="stylesheet" href="js/vendor/prism/prism.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body class="sg-body">
 
+        <div class="sg-topper">
+            <div class="sg-nav-trigger">
+                <span></span>
+            </div>
+            <div class="sg-topper-title">Styleguide</div>
+        </div>
+
         <div class="sg-aside">
             <ul class="sg-nav">
-                <li><span>Styles</span>
+                <li><span><i class="sg-ico-html"></i>Styles</span>
                     <ul>
                         <li><a href="#sg-grid">Grid system</a></li>
                         <li><a href="#sg-colors">Colors</a></li>
@@ -45,9 +53,14 @@
                         </li>
                     </ul>
                 </li>
-                <li><span>Guides &amp; Ressources</span>
+                <li><span><i class="sg-ico-documentation"></i>Documentation</span>
                     <ul>
                         <li><a href="#_">README.md</a></li>
+                        <li><a href="#_">CODE_STYLEGUIDE.md</a></li>
+                    </ul>
+                </li>
+                <li><span><i class="sg-ico-ressources"></i>Ressources</span>
+                    <ul>
                         <li><span>Inspirations</span>
                             <ul>
                                 <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
@@ -68,12 +81,6 @@
         </div><!--/.sg-aside -->
 
         <div class="sg-main">
-            <div class="sg-topper">
-                <div class="sg-nav-trigger">
-                    <span></span>
-                </div>
-                <div class="sg-topper-title">Styleguide</div>
-            </div>
 
             <div class="sg-section">
                 <div class="sg-h1">Styles</div>
@@ -186,6 +193,15 @@
                             1 2 3 4 5 6 7 8 9 0 % $ € & @ . , ? ! ’ “ ” ( ) - /
                         </div>
                     </div>
+
+                    <div class="sg-font" style="font-family:'Times New Roman'; font-style:italic">
+                        <div class="sg-font-title">Times New Roman Italic</div>
+                        <div>
+                            abcdefghijklmnopqrstuvwxyz à â ç é è ê ë ï î ô ù ü û <br>
+                            ABCDEFGHIJKLMNOPQRSTUVWXYZ À Â Ç É È Ê Ë Ï Î Ô Ù Ü Û <br>
+                            1 2 3 4 5 6 7 8 9 0 % $ € & @ . , ? ! ’ “ ” ( ) - /
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -201,17 +217,22 @@
                 </div>
             </div>
 
-            <div class="sg-section">
-                <div class="sg-h2">Section title</div>
-                <div class="sg-h3">element name</div>
+            <div id="sg-text" class="sg-section">
+                <div class="sg-h2">Text</div>
                 <div data-xrayhtml>
-<button class="btn">button</button>
-<a class="btn">button</a>
+<p>Lorem ipsum dolor sit amet, <strong>strong text</strong> adipisicing elit. <a href="#_">Linked text</a> ratione eum nihil quos earum laudantium, eaque ullam omnis ut odio vero illum vel atque nisi iste tempora. Eius excepturi iste repellat, placeat esse aspernatur obcaecati voluptatem dolorum sapiente doloremque magnam.</p>
+<p>Deleniti sapiente blanditiis ipsa quod architecto aliquam asperiores eveniet fugit harum perspiciatis omnis voluptas nam et error itaque impedit, ratione iste accusamus unde, reiciendis quia fuga consequuntur exercitationem dolorem voluptatum. Voluptatibus qui voluptate fuga neque illo debitis corporis cumque. Exercitationem similique, quas obcaecati minima, animi, tenetur ad, quibusdam voluptatum quasi deserunt dolor officia beatae totam odio non? Quam cumque laborum, atque.</p>
                 </div>
-                <div class="sg-h3">element name</div>
+            </div><!--/.sg-section -->
+
+            <div id="sg-lists" class="sg-section">
+                <div class="sg-h2">Lists</div>
                 <div data-xrayhtml>
-<button class="btn">button</button>
-<a class="btn">button</a>
+<ul>
+    <li>Lorem ipsum dolor</li>
+    <li>Ipsa quod architecto</li>
+    <li>Ratione iste accusamus</li>
+</ul>
                 </div>
             </div><!--/.sg-section -->
 
