@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="js/vendor/X-rayHTML/X-rayHTML.css">
         <link rel="stylesheet" href="js/vendor/prism/prism.css">
+        <link rel="stylesheet" href="css/md-github-flavored.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body class="sg-body">
@@ -55,8 +56,8 @@
                 </li>
                 <li><span><i class="sg-ico-documentation"></i>Documentation</span>
                     <ul>
-                        <li><a href="#_">README.md</a></li>
-                        <li><a href="#_">CODE_STYLEGUIDE.md</a></li>
+                        <li><a href="#sg-readme">README.md</a></li>
+                        <li><a href="#sg-codestyle">CODE_STYLEGUIDE.md</a></li>
                     </ul>
                 </li>
                 <li><span><i class="sg-ico-ressources"></i>Ressources</span>
@@ -84,7 +85,7 @@
 
             <div class="sg-section">
                 <div class="sg-h1">Styles</div>
-            </div><!--/.sg-section -->
+            </div>
 
             <div id="sg-grid" class="sg-section">
                 <div class="sg-h2">Grid system</div>
@@ -236,12 +237,27 @@
                 </div>
             </div><!--/.sg-section -->
 
+            <div class="sg-section">
+                <div class="sg-h1">Documentation</div>
+            </div>
+
+            <div id="sg-readme" class="sg-section">
+                <div class="sg-h2">README.md</div>
+                <div class="md-viewer" data-file="README.md"></div>
+            </div><!--/.sg-section -->
+
+            <div id="sg-codestyle" class="sg-section">
+                <div class="sg-h2">CODE_STYLEGUIDE.md</div>
+                <div class="md-viewer" data-file="CODE_STYLEGUIDE.md"></div>
+            </div><!--/.sg-section -->
+
         </div><!--/.sg-main -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/vendor/X-rayHTML/X-rayHTML.custom.js"></script>
         <script src="js/vendor/prism/prism.js"></script>
+        <script src="js/vendor/showdown/showdown.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

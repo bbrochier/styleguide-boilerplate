@@ -1,0 +1,356 @@
+.md-viewer {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px;
+}
+.md-viewer > *:first-child {
+  margin-top: 0 !important;
+}
+.md-viewer > *:last-child {
+  margin-bottom: 0 !important;
+}
+.md-viewer a {
+  color: #4183C4;
+}
+.md-viewer a.absent {
+  color: #cc0000;
+}
+.md-viewer a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.md-viewer h1,
+.md-viewer h2,
+.md-viewer h3,
+.md-viewer h4,
+.md-viewer h5,
+.md-viewer h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+.md-viewer h1:hover a.anchor,
+.md-viewer h2:hover a.anchor,
+.md-viewer h3:hover a.anchor,
+.md-viewer h4:hover a.anchor,
+.md-viewer h5:hover a.anchor,
+.md-viewer h6:hover a.anchor {
+  background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
+  text-decoration: none;
+}
+.md-viewer h1 tt,
+.md-viewer h1 code {
+  font-size: inherit;
+}
+.md-viewer h2 tt,
+.md-viewer h2 code {
+  font-size: inherit;
+}
+.md-viewer h3 tt,
+.md-viewer h3 code {
+  font-size: inherit;
+}
+.md-viewer h4 tt,
+.md-viewer h4 code {
+  font-size: inherit;
+}
+.md-viewer h5 tt,
+.md-viewer h5 code {
+  font-size: inherit;
+}
+.md-viewer h6 tt,
+.md-viewer h6 code {
+  font-size: inherit;
+}
+.md-viewer h1 {
+  font-size: 28px;
+  color: black;
+}
+.md-viewer h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+}
+.md-viewer h3 {
+  font-size: 18px;
+}
+.md-viewer h4 {
+  font-size: 16px;
+}
+.md-viewer h5 {
+  font-size: 14px;
+}
+.md-viewer h6 {
+  color: #777777;
+  font-size: 14px;
+}
+.md-viewer p,
+.md-viewer blockquote,
+.md-viewer ul,
+.md-viewer ol,
+.md-viewer dl,
+.md-viewer li,
+.md-viewer table,
+.md-viewer pre {
+  margin: 15px 0;
+}
+.md-viewer hr {
+  background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+.md-viewer body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-viewer body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-viewer body > h1:first-child + h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-viewer body > h3:first-child,
+.md-viewer body > h4:first-child,
+.md-viewer body > h5:first-child,
+.md-viewer body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-viewer a:first-child h1,
+.md-viewer a:first-child h2,
+.md-viewer a:first-child h3,
+.md-viewer a:first-child h4,
+.md-viewer a:first-child h5,
+.md-viewer a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-viewer h1 p,
+.md-viewer h2 p,
+.md-viewer h3 p,
+.md-viewer h4 p,
+.md-viewer h5 p,
+.md-viewer h6 p {
+  margin-top: 0;
+}
+.md-viewer li p.first {
+  display: inline-block;
+}
+.md-viewer ul,
+.md-viewer ol {
+  padding-left: 30px;
+}
+.md-viewer ul :first-child,
+.md-viewer ol :first-child {
+  margin-top: 0;
+}
+.md-viewer ul :last-child,
+.md-viewer ol :last-child {
+  margin-bottom: 0;
+}
+.md-viewer dl {
+  padding: 0;
+}
+.md-viewer dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+.md-viewer dl dt:first-child {
+  padding: 0;
+}
+.md-viewer dl dt > :first-child {
+  margin-top: 0;
+}
+.md-viewer dl dt > :last-child {
+  margin-bottom: 0;
+}
+.md-viewer dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+.md-viewer dl dd > :first-child {
+  margin-top: 0;
+}
+.md-viewer dl dd > :last-child {
+  margin-bottom: 0;
+}
+.md-viewer blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+}
+.md-viewer blockquote > :first-child {
+  margin-top: 0;
+}
+.md-viewer blockquote > :last-child {
+  margin-bottom: 0;
+}
+.md-viewer table {
+  padding: 0;
+}
+.md-viewer table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.md-viewer table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.md-viewer table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.md-viewer table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.md-viewer table tr th :first-child,
+.md-viewer table tr td :first-child {
+  margin-top: 0;
+}
+.md-viewer table tr th :last-child,
+.md-viewer table tr td :last-child {
+  margin-bottom: 0;
+}
+.md-viewer img {
+  max-width: 100%;
+}
+.md-viewer span.frame {
+  display: block;
+  overflow: hidden;
+}
+.md-viewer span.frame > span {
+  border: 1px solid #dddddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+.md-viewer span.frame span img {
+  display: block;
+  float: left;
+}
+.md-viewer span.frame span span {
+  clear: both;
+  color: #333333;
+  display: block;
+  padding: 5px 0 0;
+}
+.md-viewer span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.md-viewer span.align-center > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+.md-viewer span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+.md-viewer span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+.md-viewer span.align-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+.md-viewer span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+.md-viewer span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+.md-viewer span.float-left span {
+  margin: 13px 0 0;
+}
+.md-viewer span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+.md-viewer span.float-right > span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+.md-viewer code,
+.md-viewer tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+.md-viewer pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+.md-viewer .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+.md-viewer pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+.md-viewer pre code,
+.md-viewer pre tt {
+  background-color: transparent;
+  border: none;
+}

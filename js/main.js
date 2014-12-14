@@ -41,6 +41,29 @@
     }
 
 
-  });
+    /* Markdown viewer
+       ========================================================================== */
+    var converter = new Showdown.converter(),
+        jqxhr,
+        sMdFile,
+        $mdViewer;
+
+    $(".md-viewer").each(function(){
+      $mdViewer = $(this);
+      sMdFile = $mdViewer.data('file');
+      console.log('in');
+      jqxhr =
+        $.ajax({
+            async: false, //Make ajax requests synchronously = wait for the previous to finish
+            url: sMdFile,
+            data: 'text'
+        })
+        .done(function(data){
+            var ret = converter.makeHtml(data);
+            $mdViewer.html(ret);
+        })
+      });
+    });
+
 
 })(jQuery, window, document);
