@@ -44,6 +44,23 @@
       $('.xrayhtml .snippet span').on('click', function(){
         $(this).toggleClass('is-opened').parent().next().slideToggle();
       })
+
+      //Copy/past Code
+      $('.xrayhtml').each(function() {
+        var copy = $( "<a/>", {
+            "class" : "sg-copyCode",
+            "href" : "#",
+            "text" : "Copy"
+          }),
+          code = $(this).find( "code" ).text(),
+          clip = new ZeroClipboard( copy, {
+            moviePath: "js/vendor/zeroclipboard/ZeroClipboard.swf",
+            text: code
+          });
+
+        $(this).find( ".source-panel" ).prepend(copy);
+      });
+
     }
 
 

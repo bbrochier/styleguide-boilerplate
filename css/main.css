@@ -417,7 +417,11 @@ li.sg-color-title {
   margin-bottom: 20px;
 }
 
-.xrayhtml .snippet{
+.xrayhtml .snippet {
+  position: relative;
+}
+
+.xrayhtml .source-panel {
   position: relative;
 }
 
@@ -425,10 +429,32 @@ li.sg-color-title {
   margin: 0;
 }
 
+.sg-copyCode {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #eee;
+  font-family: 'Roboto';
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #333;
+  font-size: 13px;
+  transition: .3s;
+}
+
+.sg-copyCode:hover {
+  background-color: #00bcd4;
+  border-color: #00bcd4;
+  color: #fff;
+}
+
 .sg-toggleCode {
   position: absolute;
   left: -35px;
   bottom: 50%;
+  margin-bottom: -10px;
   display: inline-block;
   height: 20px;
   width: 20px;
@@ -438,7 +464,7 @@ li.sg-color-title {
   background-size: 18px 18px;
   background-color: #ccc;
   cursor: pointer;
-  transition: bottom .3s, background-color .3s;
+  transition: bottom .3s, background-color .3s, transform .3s;
 }
 
 .sg-toggleCode:hover {
@@ -450,8 +476,8 @@ li.sg-color-title {
   background-color: #00bcd4;
   background-image: url(../img/ico-close.svg);
   background-size: 14px 14px;
-  -webkit-transform: translateY(35px);
-          transform: translateY(35px);
+  -webkit-transform: translateY(25px);
+          transform: translateY(25px);
 }
 
 .xrayhtml .source-panel {
