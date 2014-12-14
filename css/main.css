@@ -418,34 +418,46 @@ li.sg-color-title {
   margin-bottom: 20px;
 }
 
-/*pre {
-  max-height: 80px;
-  transition: .5s;
+.xrayhtml .snippet{
   position: relative;
 }
 
-pre:hover {
-  max-height: 500px;
-  transition: 1s;
+.xrayhtml .source-panel pre {
+  margin: 0;
 }
 
-pre:after {
-  transition: 1s;
-  opacity: 1;
-  content: "";
-  height: 100%;
-  width: 100%;
+.sg-toggleCode {
   position: absolute;
-  top: 0;
-  left: 0;
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, #ffffff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, #ffffff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -44px;
+  bottom: 50%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url(../img/ico-html-white.svg);
+  background-position: center center;
+  -webkit-background-size: 18px 18px;
+  background-size: 18px 18px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: bottom .3s, background-color .3s;
 }
 
-pre:hover:after {
-  opacity: 0;
-}*/
+.sg-toggleCode:hover {
+  background-color: #00bcd4;
+}
 
+.sg-toggleCode.is-opened {
+  bottom: 0;
+  background-color: #00bcd4;
+  background-image: url(../img/ico-close.svg);
+  -webkit-background-size: 14px 14px;
+  background-size: 14px 14px;
+}
+
+.xrayhtml .source-panel {
+  display: none;
+}
 
 /* MARKDOWN VIEWER
 ========================================================================== */

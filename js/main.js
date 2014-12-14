@@ -38,6 +38,12 @@
       //Prism
       $("[data-xrayhtml]").find( "code" ).addClass( "language-markup" );
       Prism.highlightAll();
+
+      //Show/hide Code
+      $('.xrayhtml .snippet').append( "<span class='sg-toggleCode'></span>" );
+      $('.xrayhtml .snippet span').on('click', function(){
+        $(this).toggleClass('is-opened').parent().next().slideToggle();
+      })
     }
 
 
@@ -51,7 +57,6 @@
     $(".md-viewer").each(function(){
       $mdViewer = $(this);
       sMdFile = $mdViewer.data('file');
-      console.log('in');
       jqxhr =
         $.ajax({
             async: false, //Make ajax requests synchronously = wait for the previous to finish
