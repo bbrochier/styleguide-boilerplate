@@ -212,7 +212,6 @@
 
 .sg-nav a[href^="http"]:hover {
   background: #00bcd4 url(../img/ico-link.svg) no-repeat right 12px center;
-  -webkit-background-size: 15px 15px;
   background-size: 15px 15px;
 }
 
@@ -428,7 +427,7 @@ li.sg-color-title {
 
 .sg-toggleCode {
   position: absolute;
-  left: -44px;
+  left: -35px;
   bottom: 50%;
   display: inline-block;
   height: 20px;
@@ -436,7 +435,6 @@ li.sg-color-title {
   border-radius: 50%;
   background-image: url(../img/ico-html-white.svg);
   background-position: center center;
-  -webkit-background-size: 18px 18px;
   background-size: 18px 18px;
   background-color: #ccc;
   cursor: pointer;
@@ -451,8 +449,9 @@ li.sg-color-title {
   bottom: 0;
   background-color: #00bcd4;
   background-image: url(../img/ico-close.svg);
-  -webkit-background-size: 14px 14px;
   background-size: 14px 14px;
+  -webkit-transform: translateY(35px);
+          transform: translateY(35px);
 }
 
 .xrayhtml .source-panel {
