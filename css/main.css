@@ -317,6 +317,20 @@
 }
 
 
+/* Grid
+========================================================================== */
+.sg-grid-cell {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #eee;
+  color: #333;
+  font-family: 'Roboto';
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+
+
 /* Colors
 ========================================================================== */
 .sg-color {
