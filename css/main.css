@@ -478,6 +478,7 @@ li.sg-color-title {
   background-size: 18px 18px;
   background-color: #ccc;
   cursor: pointer;
+  transition: bottom .3s, background-color .3s, -webkit-transform .3s;
   transition: bottom .3s, background-color .3s, transform .3s;
 }
 
@@ -516,14 +517,14 @@ li.sg-color-title {
   color: #333;
   padding: 15px 20px 5px 20px;
   border-left-width: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 3px;
 }
 
 .sg-callout-title {
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .sg-callout-danger {
@@ -551,13 +552,26 @@ li.sg-color-title {
 }
 
 
+.sg-desc code,
+.sg-callout code {
+  background: #eee;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+
+.sg-desc a,
+.sg-callout a {
+  color: #00bcd4;
+}
+
+
 /* ==========================================================================
    HELPER CLASSES
    ========================================================================== */
 .sg-clearfix:before,
 .sg-clearfix:after {
-  content: " "; /* 1 */
-  display: table /* 2 */
+  content: " ";
+  display: table;
 }
 
 .sg-clearfix:after {

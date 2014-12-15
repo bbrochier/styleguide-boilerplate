@@ -12,10 +12,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore deleniti persp
 
 ###.sg-h3
 
-###.sg-desc
 
+###.sg-desc (<code>)
 
-###.sg-callout (.sg-callout-danger / .sg-callout-warning / .sg-callout-info)
+###.sg-callout (.sg-callout-danger / .sg-callout-warning / .sg-callout-info) (<code>)
 
 ###.sg-callout-title
 
