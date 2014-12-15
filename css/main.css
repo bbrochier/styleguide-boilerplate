@@ -319,7 +319,7 @@
 
 /* Grid
 ========================================================================== */
-.sg-grid-cell {
+.sg-cell {
   height: 40px;
   line-height: 40px;
   text-align: center;
@@ -498,16 +498,61 @@ li.sg-color-title {
   display: none;
 }
 
-/* MARKDOWN VIEWER
+
+/* Markdown viewer
 ========================================================================== */
 .md-viewer {
   border-left: 6px solid #eee;
 }
 
 
+/* Callouts
+========================================================================== */
+.sg-callout {
+  border: 1px solid #eee;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Roboto';
+  color: #333;
+  padding: 15px 20px;
+  border-left-width: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px 0 0 3px;
+}
 
+.sg-callout p + p {
+  margin-bottom: 0;
+}
 
+.sg-callout-title {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
 
+.sg-callout-danger {
+  border-left-color: #d9534f;
+}
+
+.sg-callout-danger .sg-callout-title {
+  color: #d9534f;
+}
+
+.sg-callout-info {
+  border-left-color: #5bc0de;
+}
+
+.sg-callout-info .sg-callout-title {
+  color: #5bc0de;
+}
+
+.sg-callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+.sg-callout-warning .sg-callout-title {
+  color: #f0ad4e;
+}
 
 
 /* ==========================================================================
