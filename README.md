@@ -1,32 +1,50 @@
-# README
+# Styleguide Boilerplate
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore deleniti perspiciatis harum, quidem facere in eaque? Repellendus, provident impedit deserunt, quam aliquam obcaecati doloribus eos eligendi quod, et sapiente eum quaerat illum cupiditate veniam dolores. Quidem in vitae fuga ipsum? Velit repellat iure alias nulla vitae, incidunt itaque vel doloremque mollitia vero voluptatem fugiat consequatur sequi numquam minus, voluptas culpa voluptatibus non aspernatur eius eligendi ipsam assumenda saepe dolorem? Iste vero eos molestiae nemo eligendi, quod quaerat, corporis minus illum laudantium! Expedita architecto rem ad vero, nam dignissimos? Praesentium facere aut assumenda numquam autem itaque minus doloribus maiores corporis deleniti.
+The purpose of Styleguide Boilerplate is to provide you with a `minimal styleguide structure` that you can plug into your project in order to reference all the components and styles available to use in that particular project.
 
-## Helper classes
+## Setup
 
-###.sg-section
+1. Download the content of [the repo](https://github.com/bbrochier/styleguide-boilerplate) into a _"styleguide"_ folder within you project
+2. Link the CSS of your project in the header of the styleguide
+3. Link the fonts of your project if you have special ones
+4. That's it! You're good to go!
 
-###.sg-h1
+_TIP: To better match your project design, be sure to change the styleguide colors as you wish ;)_
 
-###.sg-h2
+## How to use
 
-###.sg-h3
+### Structure
+
+### Headings
+
+### Description & Notes
+
+### Grid system
+
+### Colors
+
+### Fonts
+
+### Markdown viewer
+
+### Documentation
+
+### Ressources
 
 
-###.sg-desc (<code>)
+## Class references
 
-###.sg-callout (.sg-callout-danger / .sg-callout-warning / .sg-callout-info) (<code>)
-
-###.sg-callout-title
-
-
-###.sg-color
-
-###.sg-color-group
-
-###.sg-font
-
-###.sg-cell
-
-###.md-viewer
-
+- .sg-section
+- .sg-h1
+- .sg-h2
+- .sg-h3
+- .sg-desc (code)
+- .sg-callout.sg-callout-danger
+- .sg-callout.sg-callout-warning
+- .sg-callout.sg-callout-info
+- .sg-callout-title
+- .sg-color
+- .sg-color-group
+- .sg-font
+- .sg-cell
+- .md-viewer

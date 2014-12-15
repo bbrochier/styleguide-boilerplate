@@ -554,9 +554,13 @@ li.sg-color-title {
 
 .sg-desc code,
 .sg-callout code {
-  background: #eee;
-  padding: 0 3px;
-  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #818181;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
 }
 
 .sg-desc a,
