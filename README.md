@@ -58,12 +58,56 @@ _TIP: Be sure to replace all the `<` width `&lt;` in the `<code>`_
 </div>
 ```
 
+### 2. Section & Headings
 
-### 2. Structure
+Basic HTML structure
 
-### 3. Headings
+```
+<div class="sg-section">
+    <div class="sg-h1">Title H1</div>
+    <div class="sg-h2">Title H2</div>
+    <div class="sg-h3">Title H3</div>
+    <div class="sg-desc">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+</div>
+```
 
-### 4. Description & Notes
+### 3. Callouts
+
+Along with the description, you can add callouts to get the attention of the user.
+
+#### 3.1 Callout Danger
+
+```
+<div class="sg-callout sg-callout-danger">
+    <div class="sg-callout-title">Callout danger</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+```
+
+#### 3.1 Callout Warning
+
+```
+<div class="sg-callout sg-callout-warning">
+    <div class="sg-callout-title">Callout warning</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+```
+
+#### 3.1 Callout Info
+
+```
+<div class="sg-callout sg-callout-Info">
+    <div class="sg-callout-title">Callout info</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+```
+
+### 4. Text Highlight
+
+To highlight text in the description and callouts, wrap it with a `<code>` tag.
+
 
 ### 5. Grid system
 
@@ -94,3 +138,19 @@ _TIP: Be sure to replace all the `<` width `&lt;` in the `<code>`_
 - .sg-font
 - .sg-cell
 - .md-viewer
+
+
+## Colophon
+
+Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3)
+
+The typeface [Raleway](http://www.google.com/fonts/specimen/Raleway) was created by [Matt McInerney](http://matt.cc/) and [Pablo Impallari](http://www.impallari.com/). 
+
+Code highlighting by Google's [Prettify library](https://code.google.com/p/google-code-prettify/). 
+
+Icons in the header of the documentation are all derivative work of icons from [The Noun Project](http://thenounproject.com). [Feather](http://thenounproject.com/term/feather/22073) by Zach VanDeHey, [Pen](http://thenounproject.com/term/pen/21163) (with cap) by Ed Harrison, [Pen](http://thenounproject.com/term/pen/32847) (with clicker) by Matthew Hall, and [Watch](http://thenounproject.com/term/watch/48015) by Julien Deveaux.
+
+
+## Acknowledgement
+
+Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
