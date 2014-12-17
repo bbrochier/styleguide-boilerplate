@@ -41,7 +41,7 @@
 
       //Show/hide Code
       $('.xrayhtml .snippet').append( "<span class='sg-toggleCode'></span>" );
-      $('.xrayhtml .snippet span').on('click', function(){
+      $('.sg-toggleCode').on('click', function(){
         $(this).toggleClass('is-opened').parent().next().slideToggle();
       })
 
