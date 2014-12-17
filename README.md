@@ -98,7 +98,7 @@ Along with the description, you can add callouts to get the attention of the use
 #### 3.1 Callout Info
 
 ```
-<div class="sg-callout sg-callout-Info">
+<div class="sg-callout sg-callout-info">
     <div class="sg-callout-title">Callout info</div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </div>
