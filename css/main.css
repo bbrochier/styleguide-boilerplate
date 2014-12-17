@@ -1,22 +1,7 @@
 
 /* ==========================================================================
    STYLEGUIDE STYLES
-   ==========================================================================
- *
- * GLOBAL
- *
- * TOPPER
- * Burger menu
- *
- * ASIDE
- * Nav top level
- *
- * MAIN
- * Colors
- * Fonts
- * X-Ray HTML
- *
- */
+   ========================================================================== */
 
 
 
@@ -338,12 +323,30 @@
   vertical-align: top;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
-  width: 24%;
+  width: auto;
+  min-width: 250px;
   border: 1px solid #ccc;
-  margin-bottom: 1em;
+  margin: 0 10px 13px 0;
+  border-radius: 50px 0 0 50px;
 }
 
-.sg-color span {
+.sg-color span:first-child {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  border: 5px solid #fff;
+}
+
+.sg-color span:last-child {
+  padding: 1em;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*.sg-color span {
   display: block;
   height: 50px;
   border-bottom: 1px solid #ccc;
@@ -353,7 +356,7 @@
   padding: 1em;
   height: auto;
   border: 0;
-}
+}*/
 
 .sg-color-group {
   padding: 0;

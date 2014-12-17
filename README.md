@@ -24,7 +24,9 @@ _TIP: To better match your project design, be sure to change the styleguide colo
 
 #### 1.1 Automatic source code
 
-To generate the markup of your elements, just wrap them with `<div data-xrayhtml>`
+To generate the markup of your elements, just wrap them with `<div data-xrayhtml>`.
+
+The markup is hidden by default, to toggle the visibily, click on the `(</>)` button on the left of your element.
 
 _TIP: Be sure to start your code at the `very left of you editor` to avoid unwanted indentation_
 
