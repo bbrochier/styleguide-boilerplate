@@ -511,6 +511,7 @@ li.sg-color-title {
 ========================================================================== */
 .sg-callout {
   border: 1px solid #eee;
+  border-left-color: #ccc;
   font-size: 14px;
   line-height: 16px;
   font-family: 'Roboto';
@@ -525,6 +526,7 @@ li.sg-color-title {
   font-size: 18px;
   line-height: 20px;
   margin-bottom: 10px;
+  color: #ccc;
 }
 
 .sg-callout-danger {
