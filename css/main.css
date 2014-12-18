@@ -336,14 +336,15 @@
   border-radius: 50%;
   display: inline-block;
   vertical-align: middle;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
 }
 
 .sg-color span:last-child {
-  padding: 1em;
+  padding: 5px;
   height: auto;
   display: inline-block;
   vertical-align: middle;
+  line-height: 20px;
 }
 
 /*.sg-color span {
@@ -532,6 +533,10 @@ li.sg-color-title {
   color: #ccc;
 }
 
+.sg-callout a {
+  color: #ccc;
+}
+
 .sg-callout-danger {
   border-left-color: #d9534f;
 }
@@ -571,8 +576,7 @@ li.sg-color-title {
   border-radius: 3px;
 }
 
-.sg-desc a,
-.sg-callout a {
+.sg-desc a {
   color: #00bcd4;
 }
 

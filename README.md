@@ -14,7 +14,7 @@ The purpose of Styleguide Boilerplate is to provide you with a `minimal stylegui
 3. Link the fonts of your project if you have special ones
 4. That's it! You're good to go!
 
-_TIP: To better match your project design, be sure to change the styleguide colors as you wish ;)_
+_TIP: To better match your project design, be sure to change the styleguide colors as you wish. The colors of the SVG icons can be changed directly in the svg code._
 
 
 ## How to use
@@ -22,13 +22,13 @@ _TIP: To better match your project design, be sure to change the styleguide colo
 
 ### 1. Source code
 
-#### 1.1 Automatic source code
+#### 1.1 Automatic snippet/source code
 
 To generate the markup of your elements, just wrap them with `<div data-xrayhtml>`.
 
 The markup is hidden by default, to toggle the visibily, click on the `(</>)` button on the left of your element.
 
-_TIP: Be sure to start your code at the `very left of you editor` to avoid unwanted indentation_
+_TIP: Be sure to start your code at the `very left of your editor` to avoid unwanted indentation_
 
 ```
     <div data-xrayhtml>
@@ -37,11 +37,11 @@ _TIP: Be sure to start your code at the `very left of you editor` to avoid unwan
     </div>
 ```
 
-#### 1.2 Custom source code
+#### 1.2 Custom snippet/source code
 
 If you want to controle the output of the code, then follow the structure below for your elements.
 
-_TIP: Be sure to replace all the `<` width `&lt;` in the `<code>`_
+_TIP: Be sure to replace all the `<` width `&lt;` in the `<code>` and to start your code at the `very left of your editor`._
 
 ```
 <div class="xrayhtml">
@@ -57,6 +57,55 @@ _TIP: Be sure to replace all the `<` width `&lt;` in the `<code>`_
             </code>
         </pre>
     </div>
+</div>
+```
+
+#### 1.3 Only source code (HTML/CSS/JS)
+
+If you want to display only the source code, without snippet follow the structure below.
+
+_TIP: Be sure to replace all the `<` width `&lt;` in the `<code>` and to start your code at the `very left of your editor`._
+
+##### HTML
+
+```
+<div class="xrayhtml">
+    <pre>
+        <code class="language-markup">
+&lt;h1 class="title1">H1 code source different from the snippet&lt;/h1>
+&lt;h2 class="title2">H2 code source different from the snippet&lt;/h2>
+        </code>
+    </pre>
+</div>
+```
+
+##### CSS
+
+```
+<div class="xrayhtml">
+    <pre>
+        <code class="language-css">
+.class {
+    display: block;
+    color: #333;
+    background: #fff;
+}
+        </code>
+    </pre>
+</div>
+```
+
+##### JS
+
+```
+<div class="xrayhtml">
+    <pre>
+        <code class="language-javascript">
+myFunction() {
+    console.log('hello world');
+}
+        </code>
+    </pre>
 </div>
 ```
 

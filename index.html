@@ -106,8 +106,9 @@
 
             <div id="sg-colors" class="sg-section">
                 <div class="sg-h2">Colors</div>
-                <div class="sg-desc">
-                    <p>Tool to find the name of the color by hexadecimal code: <a href="http://www.color-blindness.com/color-name-hue/" target="_blank">www.color-blindness.com/color-name-hue</a></p>
+                <div class="sg-callout">
+                    <div class="sg-callout-title">Naming helper</div>
+                    <p>When adding new colors, you can <a href="http://www.color-blindness.com/color-name-hue/" target="_blank">find the name of the color by hexadecimal code</a></p>
                 </div>
 
                 <div class="sg-h3">Single colors</div>
@@ -222,12 +223,12 @@
             <div id="sg-headings" class="sg-section">
                 <div class="sg-h2">Headings</div>
                 <div data-xrayhtml>
-<h1 class="title1">h1. Styleguide heading (2em)</h1>
-<h2 class="title2">h2. Styleguide heading (1.5em)</h2>
-<h3 class="title3">h3. Styleguide heading (1.17em)</h3>
-<h4 class="title4">h4. Styleguide heading (1em)</h4>
-<h5 class="title5">h5. Styleguide heading (0.83em)</h5>
-<h6 class="title6">h6. Styleguide heading (0.67em)</h6>
+<h1 class="title1">h1. Styleguide heading</h1>
+<h2 class="title2">h2. Styleguide heading</h2>
+<h3 class="title3">h3. Styleguide heading</h3>
+<h4 class="title4">h4. Styleguide heading</h4>
+<h5 class="title5">h5. Styleguide heading</h5>
+<h6 class="title6">h6. Styleguide heading</h6>
                 </div>
             </div>
 
@@ -270,6 +271,39 @@
                 </div>
                 <div class="sg-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi!</div>
             </div>
+
+            <div class="sg-section">
+                <div class="sg-h2">Display only code</div>
+
+                <div class="sg-h3">HTML</div>
+                <div class="xrayhtml">
+                    <pre><code class="language-markup">
+&lt;h1 class="title1">H1 code source different from the snippet&lt;/h1>
+&lt;h2 class="title2">H2 code source different from the snippet&lt;/h2>
+                    </code></pre>
+                </div>
+
+                <div class="sg-h3">CSS</div>
+                <div class="xrayhtml">
+                    <pre><code class="language-css">
+.class {
+    display: block;
+    color: #333;
+    background: #fff;
+}
+                    </code></pre>
+                </div>
+
+                <div class="sg-h3">JS</div>
+                <div class="xrayhtml">
+                    <pre><code class="language-javascript">
+myFunction() {
+    console.log('hello world');
+}
+                    </code></pre>
+                </div>
+
+            </div><!--/.sg-section -->
 
             <div class="sg-section">
                 <div class="sg-h1">Documentation</div>
