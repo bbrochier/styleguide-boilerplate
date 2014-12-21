@@ -111,7 +111,7 @@ myFunction() {
 
 ### 2. Section & Headings
 
-Basic HTML structure
+Basic HTML elements to build your styleguide with : __Sections / Descriptions / h1, h2, h3__
 
 ```
 <div class="sg-section">
@@ -128,7 +128,7 @@ Basic HTML structure
 
 Along with the description, you can add callouts to get the attention of the user.
 
-#### 3.1 Callout Danger
+##### Callout Danger
 
 ```
 <div class="sg-callout sg-callout-danger">
@@ -137,7 +137,7 @@ Along with the description, you can add callouts to get the attention of the use
 </div>
 ```
 
-#### 3.1 Callout Warning
+##### Callout Warning
 
 ```
 <div class="sg-callout sg-callout-warning">
@@ -146,7 +146,7 @@ Along with the description, you can add callouts to get the attention of the use
 </div>
 ```
 
-#### 3.1 Callout Info
+##### Callout Info
 
 ```
 <div class="sg-callout sg-callout-info">
@@ -162,9 +162,60 @@ To highlight text in the description and callouts, wrap it with a `<code>` tag.
 
 ### 5. Grid system
 
+The styleguide does not impose any grid system so you can use your favorite.
+
+To display your grid in the styleguide you can use `<div class="sg-cell">your text</div>` as cell filler inside your cols. _(see example in grid section)_
+
+
 ### 6. Colors
 
+The colors can be displayed in 2 differents ways using the following code :
+
+##### As swatches :
+
+```
+<div class="sg-color">
+    <span style="background-color: #03a9f4"></span>
+    <span><strong>#03a9f4</strong><br>rgb(3,169,244)<br>@color-blue-deepSky</span>
+</div>
+```
+
+##### As group of colors :
+
+```
+<ul class="sg-color-group">
+    <li class="sg-color-title">Blue</li>
+    <li class="sg-color-dark" style="background-color: #01579b;">
+        <span>@color-blue-cobalt</span>
+        <span>#01579b</span>
+    </li>
+    <li class="sg-color-dark" style="background-color: #03a9f4;">
+        <span>@color-blue-deepSky</span>
+        <span>#03a9f4</span>
+    </li>
+    <li class="sg-color-light" style="background-color: #81d4fa;">
+        <span>@color-blue-lightSky</span>
+        <span>#81d4fa</span>
+    </li>
+</ul>
+```
+
 ### 7. Fonts
+
+To display a font simply use the code below and add/remove characters to meet your needs :
+
+_Reminder: If you use web fonts for your site, don't forget to call them as well in the header of the styleguide._
+
+```
+<div class="sg-font" style="font-family:roboto">
+    <div class="sg-font-title">Roboto 400 <span>@font-roboto</span></div>
+    <div>
+        abcdefghijklmnopqrstuvwxyz à â ç é è ê ë ï î ô ù ü û <br>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ À Â Ç É È Ê Ë Ï Î Ô Ù Ü Û <br>
+        1 2 3 4 5 6 7 8 9 0 % $ € & @ . , ? ! ’ “ ” ( ) - /
+    </div>
+</div>
+```
 
 ### 8. Markdown viewer
 
