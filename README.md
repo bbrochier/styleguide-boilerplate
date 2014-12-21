@@ -39,7 +39,7 @@ _TIP: Be sure to start your code at the `very left of your editor` to avoid unwa
 
 #### 1.2 Custom snippet/source code
 
-If you want to controle the output of the code, then follow the structure below for your elements.
+If you want to control the output of the code, then follow the structure below for your elements.
 
 _TIP: Be sure to replace all the `<` width `&lt;` in the `<code>` and to start your code at the `very left of your editor`._
 
