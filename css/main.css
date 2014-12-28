@@ -20,7 +20,7 @@
    ========================================================================== */
 .sg-topper {
   height: 60px;
-  background: #00bcd4;
+  background: #333;
   position: fixed;
   width: 100%;
   top: 0;
@@ -191,12 +191,12 @@
 }
 
 .sg-nav a:hover {
-  background: #00bcd4;
+  background: #ccc;
   color: #fff;
 }
 
 .sg-nav a[href^="http"]:hover {
-  background: #00bcd4 url(../img/ico-link.svg) no-repeat right 12px center;
+  background: #ccc url(../img/ico-link.svg) no-repeat right 12px center;
   background-size: 15px 15px;
 }
 
@@ -464,8 +464,8 @@ li.sg-color-title {
 }
 
 .sg-copyCode:hover {
-  background-color: #00bcd4;
-  border-color: #00bcd4;
+  background-color: #e08524;
+  border-color: #e08524;
   color: #fff;
 }
 
@@ -488,12 +488,12 @@ li.sg-color-title {
 }
 
 .sg-toggleCode:hover {
-  background-color: #00bcd4;
+  background-color: #e08524;
 }
 
 .sg-toggleCode.is-opened {
   bottom: 0;
-  background-color: #00bcd4;
+  background-color: #e08524;
   background-image: url(../img/ico-close.svg);
   background-size: 14px 14px;
   -webkit-transform: translateY(25px);
@@ -578,7 +578,7 @@ li.sg-color-title {
 }
 
 .sg-desc a {
-  color: #00bcd4;
+  color: #e08524;
 }
 
 .sg-desc li,
