@@ -6,6 +6,17 @@ The purpose of Styleguide Boilerplate is to provide you with a `minimal stylegui
 ## Demo
 [http://bbrochier.github.io/styleguide-boilerplate/](http://bbrochier.github.io/styleguide-boilerplate/)
 
+## Features
+- Styleguide structure & navigation
+- Source code generator from snippet
+- Source code color highlighting (HTML/CSS/JS)
+- Colors swatches/groups
+- Fonts viewer
+- Callouts (info/warning/danger)
+- Markdown viewer for documentation
+- Styleguide preseted Headings, text & highlighting
+- Grid system cell
+
 ## Repo
 [https://github.com/bbrochier/styleguide-boilerplate](https://github.com/bbrochier/styleguide-boilerplate)
 
@@ -221,9 +232,28 @@ _Reminder: If you use web fonts for your site, don't forget to call them as well
 
 ### 8. Markdown viewer
 
+For an easy access to the README.md directly from the styleguide, we have include a markdown viewer.
+
+To display the content of markdown file, add the following markup and change the path in `data-file=` to target the markdown file you want to display :
+
+```
+<div class="md-viewer" data-file="README.md"></div>
+```
+
+
 ### 9. Documentation
 
+Using the Markdown viewer, you can add your own documentation, code styleguide, CSSReadme... and easy access to it via the `Documentation menu`.
+
+
 ### 10. Ressources
+
+If you need to link to external information you can use the `Ressources menu`. Those ressources can be:
+- plugins website/repo
+- inspirations & examples
+- useful articles
+- development tools/references
+- tutorials
 
 
 ## Class references

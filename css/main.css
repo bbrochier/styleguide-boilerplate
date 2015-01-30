@@ -347,27 +347,14 @@
   line-height: 20px;
 }
 
-/*.sg-color span {
-  display: block;
-  height: 50px;
-  border-bottom: 1px solid #ccc;
-}
-
-.sg-color span + span {
-  padding: 1em;
-  height: auto;
-  border: 0;
-}*/
-
 .sg-color-group {
   padding: 0;
-  margin: 0;
+  margin: 0 5px 10px 0;
   list-style: none;
-  width: 30%;
+  min-width: 250px;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   border: 1px solid #ccc;
-  margin-bottom: 1em;
   display: inline-block;
   vertical-align: top;
 }
